@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1" pages="3">
   <diagram name="Página-1" id="9FrSGExGUVzMsdCN9j4I">
     <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -131,6 +131,392 @@
         </mxCell>
         <mxCell id="qK0dxTyhT4rVOuuIRujE-24" value="Sistema de Caixa Eletrônico" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="220" y="40" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rTdQq93VGSbdzRwb9qGO" name="Página-3">
+    <mxGraphModel dx="1877" dy="1726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-1" value="Compra de Produtos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-10" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-2" value="Lista/Dados de Clientes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="170" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-3" value="Consultar Registro de Vendas" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="300" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-5" value="Fornecedores" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="420" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-7" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-8" value="Consultar Lista de Staff" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="360" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-9" value="Atendente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-7" target="icPS8NTpd52-NPd5R2-Y-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-2" target="icPS8NTpd52-NPd5R2-Y-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-4" target="icPS8NTpd52-NPd5R2-Y-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="320" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-15" value="Administrador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="370" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-4" target="icPS8NTpd52-NPd5R2-Y-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-4" target="icPS8NTpd52-NPd5R2-Y-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-3" target="icPS8NTpd52-NPd5R2-Y-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-8" target="icPS8NTpd52-NPd5R2-Y-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-5" target="icPS8NTpd52-NPd5R2-Y-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-22" value="Histórico de Entrada/Saída" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="480" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-23" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-22" target="icPS8NTpd52-NPd5R2-Y-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-24" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-3" target="icPS8NTpd52-NPd5R2-Y-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-25" value="Gerente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="370" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-26" value="Consultar Saldos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="540" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-26" target="icPS8NTpd52-NPd5R2-Y-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="470" as="sourcePoint" />
+            <mxPoint x="430" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-28" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-26" target="icPS8NTpd52-NPd5R2-Y-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="470" as="sourcePoint" />
+            <mxPoint x="430" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-29" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-22" target="icPS8NTpd52-NPd5R2-Y-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="470" as="sourcePoint" />
+            <mxPoint x="430" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-30" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-5" target="icPS8NTpd52-NPd5R2-Y-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="470" as="sourcePoint" />
+            <mxPoint x="430" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-31" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-8" target="icPS8NTpd52-NPd5R2-Y-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="470" as="sourcePoint" />
+            <mxPoint x="430" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-32" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-3" target="icPS8NTpd52-NPd5R2-Y-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="470" as="sourcePoint" />
+            <mxPoint x="430" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-33" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-4" target="icPS8NTpd52-NPd5R2-Y-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="470" as="sourcePoint" />
+            <mxPoint x="430" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-34" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-2" target="icPS8NTpd52-NPd5R2-Y-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="470" as="sourcePoint" />
+            <mxPoint x="430" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-35" value="Gerar Relatório" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="535" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-36" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-35" target="icPS8NTpd52-NPd5R2-Y-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="460" as="sourcePoint" />
+            <mxPoint x="430" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-37" value="Requisição à Administração" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-38" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-25" target="icPS8NTpd52-NPd5R2-Y-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="380" as="sourcePoint" />
+            <mxPoint x="430" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-39" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-9" target="icPS8NTpd52-NPd5R2-Y-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="380" as="sourcePoint" />
+            <mxPoint x="430" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-40" value="Gerar Declarações Financeiras" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="470" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-43" value="Contador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="470" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-44" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-43" target="icPS8NTpd52-NPd5R2-Y-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="410" as="sourcePoint" />
+            <mxPoint x="470" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-45" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-43" target="icPS8NTpd52-NPd5R2-Y-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="410" as="sourcePoint" />
+            <mxPoint x="470" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-46" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-35" target="icPS8NTpd52-NPd5R2-Y-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="410" as="sourcePoint" />
+            <mxPoint x="470" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-47" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-43" target="icPS8NTpd52-NPd5R2-Y-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="410" as="sourcePoint" />
+            <mxPoint x="470" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-48" value="Registro de despesas Administrativas/Comerciais" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="154" y="620" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-49" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-48" target="icPS8NTpd52-NPd5R2-Y-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="410" as="sourcePoint" />
+            <mxPoint x="470" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-50" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-43" target="icPS8NTpd52-NPd5R2-Y-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="630" as="sourcePoint" />
+            <mxPoint x="640" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-51" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-48" target="icPS8NTpd52-NPd5R2-Y-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="410" as="sourcePoint" />
+            <mxPoint x="470" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-52" value="Registro de Receita Médica" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-10" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-53" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-9" target="icPS8NTpd52-NPd5R2-Y-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="130" as="sourcePoint" />
+            <mxPoint x="470" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-54" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-52" target="icPS8NTpd52-NPd5R2-Y-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="210" as="sourcePoint" />
+            <mxPoint x="470" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-56" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-43" target="icPS8NTpd52-NPd5R2-Y-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="470" as="sourcePoint" />
+            <mxPoint x="500" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-4" value="Consultar Estoque" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="240" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-58" value="Requisição à Gerencia" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-59" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-58" target="icPS8NTpd52-NPd5R2-Y-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="440" as="sourcePoint" />
+            <mxPoint x="430" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-60" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-61" target="icPS8NTpd52-NPd5R2-Y-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="-20" as="sourcePoint" />
+            <mxPoint x="530" y="-70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-61" value="Registro de Cliente" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="-10" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-62" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-9" target="icPS8NTpd52-NPd5R2-Y-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="60" as="sourcePoint" />
+            <mxPoint x="520" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-63" value="Cliente" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="-350" width="190" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-64" value="+ Nome: String&lt;div&gt;+ CPF: String&lt;/div&gt;&lt;div&gt;+ Email: String&lt;/div&gt;&lt;div&gt;+ Idade: Integer&lt;/div&gt;&lt;div&gt;+ Histórico String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="icPS8NTpd52-NPd5R2-Y-63">
+          <mxGeometry y="26" width="190" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-65" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="icPS8NTpd52-NPd5R2-Y-63">
+          <mxGeometry y="110" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-66" value="+ Registrar_Cliente&lt;div&gt;+ Consultar_Conta&lt;/div&gt;&lt;div&gt;+ Excluir_Conta&lt;/div&gt;&lt;div&gt;+ Editar_Contas&lt;/div&gt;&lt;div&gt;+ Registrar_Receita_Médica&lt;/div&gt;&lt;div&gt;+ Compra_de_Produto&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="icPS8NTpd52-NPd5R2-Y-63">
+          <mxGeometry y="118" width="190" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-67" value="Requisição à Gerencia" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="75" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-68" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-9" target="icPS8NTpd52-NPd5R2-Y-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="320" as="sourcePoint" />
+            <mxPoint x="530" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-69" value="Editar Conta" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-90" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-72" value="Excluir Conta" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-150" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-73" value="Consultar Conta" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-210" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-74" value="Registrar Produto" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="130" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-75" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-74" target="icPS8NTpd52-NPd5R2-Y-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="330" as="sourcePoint" />
+            <mxPoint x="530" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-76" value="Registrar Entrada/saída de Produto" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-77" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-76" target="icPS8NTpd52-NPd5R2-Y-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="180" as="sourcePoint" />
+            <mxPoint x="470" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-78" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-69" target="icPS8NTpd52-NPd5R2-Y-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="80" as="sourcePoint" />
+            <mxPoint x="470" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-79" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-7" target="icPS8NTpd52-NPd5R2-Y-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="80" as="sourcePoint" />
+            <mxPoint x="470" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-80" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-7" target="icPS8NTpd52-NPd5R2-Y-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="80" as="sourcePoint" />
+            <mxPoint x="470" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-82" value="Registrar Diminuição de Staff" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-83" value="Registrar Aumento de Staff" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-84" value="Alterar Cargo de Staff" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-85" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-25" target="icPS8NTpd52-NPd5R2-Y-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="350" as="sourcePoint" />
+            <mxPoint x="510" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-86" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-25" target="icPS8NTpd52-NPd5R2-Y-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="350" as="sourcePoint" />
+            <mxPoint x="510" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-87" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="icPS8NTpd52-NPd5R2-Y-25" target="icPS8NTpd52-NPd5R2-Y-82">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="350" as="sourcePoint" />
+            <mxPoint x="510" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-88" value="Staff" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="-120" width="200" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-89" value="+ Nome: String&lt;div&gt;+ Cargo: String&lt;/div&gt;&lt;div&gt;+ Idade: Integer&lt;/div&gt;&lt;div&gt;+ Tempo_de_Serviço: Integer&lt;/div&gt;&lt;div&gt;+ Salário: Integer&lt;/div&gt;&lt;div&gt;+ Horário: Integer&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="icPS8NTpd52-NPd5R2-Y-88">
+          <mxGeometry y="26" width="200" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-90" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="icPS8NTpd52-NPd5R2-Y-88">
+          <mxGeometry y="120" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-92" value="Atendente" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="20" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-93" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="icPS8NTpd52-NPd5R2-Y-92">
+          <mxGeometry y="26" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-94" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="icPS8NTpd52-NPd5R2-Y-92">
+          <mxGeometry y="52" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="icPS8NTpd52-NPd5R2-Y-95" value="+ Registrar_Entrade/Saída_de_Produto&lt;div&gt;+ Gerar Receita&lt;/div&gt;&lt;div&gt;+ Requisição_à_Gerencia&lt;/div&gt;&lt;div&gt;+ Lista/Dados_de_Clientes&lt;/div&gt;&lt;div&gt;+ Registro_de_Receita_Médica&lt;/div&gt;&lt;div&gt;+ Requisição_à_Administração&lt;/div&gt;&lt;div&gt;+ Consultar_Estoque&lt;/div&gt;&lt;div&gt;+ Consultar_Registro_de_Vendas&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="icPS8NTpd52-NPd5R2-Y-92">
+          <mxGeometry y="60" width="230" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
